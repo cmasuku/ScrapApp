@@ -29,5 +29,7 @@ def ax_constraint_rule(model, i):
   # return the expression for the constraint for i
   return sum(model.a[i,j] * model.x[j] for j in model.J) >= model.b[i]
 
+# changed this file for fun
+
 # the next line creates one constraint for each member of the set model.I
 model.AxbConstraint = Constraint(model.I, rule=ax_constraint_rule)
