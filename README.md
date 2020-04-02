@@ -2,4 +2,5 @@
 This repository is just created for practice purposes
 
 Excercise
-Abstract1 is a simple PYOMO file
+abstract1.py is a simple PYOMO file just added for fun
+
