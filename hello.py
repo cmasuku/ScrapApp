@@ -16,6 +16,10 @@ def main():
 #    print sys.argv
     
 
+# Using dictionaries
+    d = {'user':'bozo', 'pswd':1234}
+    print(d['pswd'])
+
 
 # Info from Google's Python Class
 # PyQuick - Basic Python
