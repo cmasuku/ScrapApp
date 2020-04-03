@@ -20,7 +20,11 @@ def main():
     d = {'user':'bozo', 'pswd':1234}
     print(d['pswd'])
 
+# compare with lists
+    li = [2, 4, 6]
 
+
+    
 # Info from Google's Python Class
 # PyQuick - Basic Python
 
