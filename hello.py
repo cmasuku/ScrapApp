@@ -21,6 +21,7 @@ def main():
     print(d['pswd'])
 
 # lists
+    li = [2, 4, 6]
     a = [4, 2, 1, 6]
     b = ['ccc', 'aaaa', 'd', 'bb']
     print(b)
