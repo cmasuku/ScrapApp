@@ -20,6 +20,11 @@ def main():
     d = {'user':'bozo', 'pswd':1234}
     print(d['pswd'])
 
+# lists
+    a = [4, 2, 1, 6]
+    b = ['ccc', 'aaaa', 'd', 'bb']
+    
+
 
 # Info from Google's Python Class
 # PyQuick - Basic Python
