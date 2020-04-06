@@ -23,6 +23,7 @@ def main():
 # lists
     a = [4, 2, 1, 6]
     b = ['ccc', 'aaaa', 'd', 'bb']
+    print(b)
     
 
 
