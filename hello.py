@@ -22,7 +22,9 @@ def main():
 
 # compare with lists
     li = [2, 4, 6]
-
+    a = [4, 2, 1, 6]
+    b = ['ccc', 'aaaa', 'd', 'bb']
+    print(b)
 
     
 # Info from Google's Python Class
