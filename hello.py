@@ -24,7 +24,12 @@ def main():
     li = [2, 4, 6]
     a = [4, 2, 1, 6]
     b = ['ccc', 'aaaa', 'd', 'bb']
+    c = sorted(b, key=len)
     print(b)
+    print(c)
+
+# next thing is tuples
+
 
     
 # Info from Google's Python Class
