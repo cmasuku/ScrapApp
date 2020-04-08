@@ -31,6 +31,9 @@ def main():
 # next thing is tuples
 
 
+    # scrap notes
+    print(106200*11/9)
+
     
 # Info from Google's Python Class
 # PyQuick - Basic Python
