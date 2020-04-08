@@ -32,7 +32,7 @@ def main():
 
 
     # scrap notes
-    print(106200*11/9)
+    # Not important
 
     
 # Info from Google's Python Class
