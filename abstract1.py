@@ -1,5 +1,6 @@
 # abstract1.py
 # This is an Abstract Model from the PYOMO document
+# There's no need to run this model
 # Just exercising
 
 from __future__ import division
