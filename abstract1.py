@@ -31,6 +31,8 @@ def ax_constraint_rule(model, i):
 
 # changed this file for fun
 # some useless edits
+# just bored
+
 
 # the next line creates one constraint for each member of the set model.I
 model.AxbConstraint = Constraint(model.I, rule=ax_constraint_rule)
