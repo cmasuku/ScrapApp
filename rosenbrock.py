@@ -7,7 +7,7 @@ Created on Sat Apr 11 09:10:09 2020
 
 # Rosenbrock test function
 
-from coopr.pyomo import *
+from pyomo import *
 
 model = ConcreteModel()
 
