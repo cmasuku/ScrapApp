@@ -7,13 +7,18 @@ Created on Thu Nov 21 11:26:52 2019
 
 # New Scrap File for Trying out stuff
 
-# import sys
+import sys
+
+def Cat(filename):
+    f = open(filename)
+    for line in f:
+        print(line)
 
 
 # Define a main() function that prints a little greeting.
 def main():
     print('Welcome to the practice doc!')
-#    print sys.argv
+    Cat(sys.argv[1])
     
 
 # Using dictionaries
