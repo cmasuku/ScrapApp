@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Apr 11 09:10:09 2020
+This code runs by:
+$ pyomo solve rosenbrock.py --solver=ipopt --summary
 
-@author: MasukuCM
+@author: cmasuku
 """
 
 # Rosenbrock test function
