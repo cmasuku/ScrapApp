@@ -1,0 +1,73 @@
+Trust Region Algorithm
+
+File named: Weekly report 05_04_2020
+
+Function 1: Read
+
+Function 2: Write
+
+Class: correction term
+
+
+? Adding the penalty term to the objection
+
+
+We need Fabio to build the full ROM (i.e. with correction terms)
+
+TRSP
+
+Adding correction terms to the ROM (pseudo comp.)
+
+Meeting
+
+
+Day 15a
+
+
+Same time next week Wed 04/22
+
+
+Building Aspen Custom Models with
+Aspen Custom Modeler
+
+
+Equation-Oriented Modeling
+
+
+1. Introduction to ACM Layout and Operation
+
+Charles Sanderson
+
+Flowsheet Window
+
+Explorer Window
+Folder --> Content
+
+Custom Modeling
+
+Libraries
+
+Variables
+
+Procedures
+Scripts
+
+Structures
+
+Visual Basics
+
+
+2. Flowsheet Equations, Running Models and Using Snapshots
+
+
+Steady State run vs. Dynamic
+
+Newton Method solution
+
+
+3. Degrees of Freedom and Custom Forms
+
+
+
+
+
