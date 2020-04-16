@@ -1,9 +1,10 @@
 Building Aspen Custom Models with
 Aspen Custom Modeler
 
-
+To be combined with
 Equation-Oriented Modeling
 
+YouTube Videos
 
 1. Introduction to ACM Layout and Operation
 
