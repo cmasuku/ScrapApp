@@ -4,6 +4,9 @@ Aspen Custom Modeler
 To be combined with
 Equation-Oriented Modeling
 
+with a consideration of writing python scripts
+
+
 YouTube Videos
 
 1. Introduction to ACM Layout and Operation
@@ -38,8 +41,4 @@ Newton Method solution
 
 
 3. Degrees of Freedom and Custom Forms
-
-
-
-
 
