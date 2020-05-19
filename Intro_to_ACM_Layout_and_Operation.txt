@@ -37,6 +37,8 @@ Visual Basics
 
 Steady State run vs. Dynamic
 
+Solver Options
+
 Newton Method solution
 
 
