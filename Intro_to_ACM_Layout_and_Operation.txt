@@ -44,4 +44,4 @@ Newton Method solution
 
 3. Degrees of Freedom and Custom Forms
 
-Next time
+Coming soon
