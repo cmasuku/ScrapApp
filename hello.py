@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Nov 21 11:26:52 2019
+Python Practice file
+Created and updated as required
 
 @author: MasukuCM
 """
