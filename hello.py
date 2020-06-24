@@ -10,16 +10,26 @@ Created and updated as required
 
 import sys
 
-def Cat(filename):
-    f = open(filename)
-    for line in f:
-        print(line)
+# def Cat(filename):
+#    f = open(filename)
+#    for line in f:
+#        print(line)
+
+def Hello(name):
+    if name == 'Alice':
+        print('Alice Mode')
+    else:
+        print('Else Case')
+    name = name + '!!!!'
+    print('Hello',name)
 
 
 # Define a main() function that prints a little greeting.
 def main():
+    Hello(sys.argv[1])
     print('Welcome to the practice doc!')
-    Cat(sys.argv[1])
+#    print(sys.argv[1])
+#    Cat(sys.argv[1])
     
 
 # Using dictionaries
