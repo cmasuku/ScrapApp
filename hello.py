@@ -30,7 +30,8 @@ def main():
     print('Welcome to the practice doc!')
 #    print(sys.argv[1])
 #    Cat(sys.argv[1])
-    
+
+# Reviewed up to strings
 
 # Using dictionaries
     d = {'user':'bozo', 'pswd':1234}
