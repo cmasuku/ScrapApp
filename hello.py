@@ -31,7 +31,8 @@ def main():
 #    print(sys.argv[1])
 #    Cat(sys.argv[1])
 
-# Reviewed up to strings
+# Reviewed up to end of Part 1, next session is Part 2
+
 
 # Using dictionaries
     d = {'user':'bozo', 'pswd':1234}
