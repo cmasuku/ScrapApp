@@ -33,18 +33,27 @@ def main():
 
 # Reviewed up to end of Part 1, next session is Part 2
 
+# Now onto lists and dictionaries
+
+
+# lists
+    li = [2, 4, 6]
+    a = [4, 2, 1, 6]
+    b = ['ccc', 'aaaa', 'd', 'bb']
+    c = sorted(b, key=len)
+#    print(b)
+    for num in b:
+        print(num)
+    print(c)
+
+# example of a loop
+
+
 
 # Using dictionaries
     d = {'user':'bozo', 'pswd':1234}
     print(d['pswd'])
 
-# compare with lists
-    li = [2, 4, 6]
-    a = [4, 2, 1, 6]
-    b = ['ccc', 'aaaa', 'd', 'bb']
-    c = sorted(b, key=len)
-    print(b)
-    print(c)
 
 # next thing is tuples
 # next section coming soon
