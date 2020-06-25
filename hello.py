@@ -31,7 +31,7 @@ def main():
 #    print(sys.argv[1])
 #    Cat(sys.argv[1])
 
-# Reviewed up to end of Part 1, next session is Part 2
+# Reviewed up to end of Part 2, next session is Part 3
 
 # Now onto lists and dictionaries
 
@@ -53,11 +53,6 @@ def main():
     print(d.split(':'))
 
 
-# Using dictionaries
-    d = {'user':'bozo', 'pswd':1234}
-    print(d['pswd'])
-
-
 # next thing is tuples
 # immutable, fixed size
 
@@ -66,6 +61,11 @@ def main():
 # list of tuples
     litu = [(1,'b'), (2,'a'), (1,'a')]
     print(sorted(litu))
+
+
+# Using dictionaries
+    d = {'user':'bozo', 'pswd':1234}
+    print(d['pswd'])
 
 
 # next section coming soon
