@@ -41,13 +41,16 @@ def main():
     a = [4, 2, 1, 6]
     b = ['ccc', 'aaaa', 'd', 'bb']
     c = sorted(b, key=len)
-#    print(b)
     for num in b:
         print(num)
     print(c)
 
 # example of a loop
 
+
+# join method, split method
+    d = ':'.join(b)
+    print(d.split(':'))
 
 
 # Using dictionaries
@@ -56,6 +59,15 @@ def main():
 
 
 # next thing is tuples
+# immutable, fixed size
+
+    tu = (2, 3, 5)
+
+# list of tuples
+    litu = [(1,'b'), (2,'a'), (1,'a')]
+    print(sorted(litu))
+
+
 # next section coming soon
 
 
