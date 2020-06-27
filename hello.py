@@ -10,10 +10,16 @@ Created and updated as required
 
 import sys
 
-# def Cat(filename):
-#    f = open(filename)
+def Cat(filename):
+    f = open(filename, 'r')
 #    for line in f:
 #        print(line)
+#    lines = f.readlines()    #creating a list of lines
+#    print(lines)
+    text = f.read()           # just reads the file
+    print(text)
+    f.close()
+
 
 def Hello(name):
     if name == 'Alice':
@@ -29,7 +35,7 @@ def main():
     Hello(sys.argv[1])
     print('Welcome to the practice doc!')
 #    print(sys.argv[1])
-#    Cat(sys.argv[1])
+    Cat(sys.argv[1])
 
 # Reviewed up to end of Part 2, next session is Part 3
 
