@@ -73,6 +73,7 @@ def main():
     d = {'user':'bozo', 'pswd':1234}
     print(d['pswd'])
 
+# look at creating an empty dictionary and adding content sequentially
 
 # need a section on adding to a dictionary
 
