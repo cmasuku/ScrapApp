@@ -10,6 +10,9 @@ Created and updated as required
 
 import sys
 
+import re
+
+
 def Cat(filename):
     f = open(filename, 'r')
 #    for line in f:
@@ -30,12 +33,26 @@ def Hello(name):
     print('Hello',name)
 
 
+# Regular Expressions
+
+def Find(pat, text):
+    match = re.search(pat, text)
+    if match:
+        print(match.group())
+    else:
+        print('Not found')
+
+
+
 # Define a main() function that prints a little greeting.
 def main():
     Hello(sys.argv[1])
     print('Welcome to the practice doc!')
 #    print(sys.argv[1])
     Cat(sys.argv[1])
+
+    Find('ig', 'called piiig')
+
 
 # Reviewed up to end of Part 2, next session is Part 3
 
@@ -84,6 +101,15 @@ def main():
 
     # scrap notes
     # Not important
+
+
+# Day 2 Part 1
+# Start with Regular Expressions
+
+
+
+# Next is Day 2 Part 2
+
 
     
 # Info from Google's Python Class
