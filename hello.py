@@ -33,6 +33,7 @@ def List(dir):
         print(path)
         print(os.path.abspath(path))
 
+# most parts of this code has changed a lot from Python 2 to 3
 
 
 def Hello(name):
@@ -55,10 +56,7 @@ def Find(pat, text):
 
 
 # Utilities: OS and Commands
-
-
-
-
+# Didn't do much on this
 
 # Define a main() function that prints a little greeting.
 def main():
@@ -114,20 +112,15 @@ def main():
 
 
 
-# next section coming soon
-
-
-    # scrap notes
-    # Not important
-
-
 # Day 2 Part 1
 # Start with Regular Expressions
 
 
-
 # Next is Day 2 Part 2
 # Utilities
+
+# Day 2 Part 3
+# Utilities: URLs and HTTP, Exceptions
 
     
 # Info from Google's Python Class
