@@ -9,8 +9,11 @@ Created and updated as required
 # New Scrap File for Trying out stuff
 
 import sys
-
+import os
 import re
+
+import subprocess             # this has replaced the commands module from python 2
+
 
 
 def Cat(filename):
@@ -22,6 +25,14 @@ def Cat(filename):
     text = f.read()           # just reads the file
     print(text)
     f.close()
+
+def List(dir):
+    filenames = os.listdir(dir)
+    for filename in filenames:
+        path = os.path.join(dir, filename)
+        print(path)
+        print(os.path.abspath(path))
+
 
 
 def Hello(name):
@@ -43,13 +54,20 @@ def Find(pat, text):
         print('Not found')
 
 
+# Utilities: OS and Commands
+
+
+
+
 
 # Define a main() function that prints a little greeting.
 def main():
     Hello(sys.argv[1])
-    print('Welcome to the practice doc!')
+#    print('Welcome to the practice doc!')
 #    print(sys.argv[1])
-    Cat(sys.argv[1])
+#    Cat(sys.argv[1])
+    List(sys.argv[1])
+    
 
     Find('ig', 'called piiig')
 
