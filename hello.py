@@ -17,16 +17,26 @@ import subprocess             # this has replaced the commands module from pytho
 
 
 def Cat(filename):
-    f = open(filename, 'r')
+#    f = open(filename, 'r')
 #    for line in f:
 #        print(line)
 #    lines = f.readlines()    #creating a list of lines
 #    print(lines)
-    text = f.read()           # just reads the file
-    print(text)
-    f.close()
 
-def List(dir):
+# handling exceptions
+    try:
+        f = open(filename)
+        text = f.read()           # just reads the file
+        print('---', filename)
+        print(text)
+    except IO Error:
+        print('IO Error', filename)
+
+# the exception doesn't work well
+
+#    f.close()
+
+ def List(dir):
     filenames = os.listdir(dir)
     for filename in filenames:
         path = os.path.join(dir, filename)
@@ -54,9 +64,17 @@ def Find(pat, text):
     else:
         print('Not found')
 
-
 # Utilities: OS and Commands
 # Didn't do much on this
+
+# Utilities: URLs and HTTP, Exceptions
+
+# Modularity
+# Command line flags
+
+
+# List comprehension
+
 
 # Define a main() function that prints a little greeting.
 def main():
@@ -64,8 +82,10 @@ def main():
 #    print('Welcome to the practice doc!')
 #    print(sys.argv[1])
 #    Cat(sys.argv[1])
-    List(sys.argv[1])
-    
+#    List(sys.argv[1])
+    args = sys.argv[1:]
+    for arg in args:
+        Cat(arg)
 
     Find('ig', 'called piiig')
 
