@@ -2,14 +2,12 @@
 """
 Scrap Python file for trying out random code
 Created on Tue Jun 30 2020
-
 From watching Free Courses on YouTube
 By: freeCodeCamp.org
 Title: Learn Python -- Full Course for Beginners [Tutorial]
- 
 @author: MasukuCM
 """
-# Preferred Editor/IDE PyCharm
+# Preferred Editor/IDE PyCharm but I use Spyder
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,6 +27,9 @@ plt.subplot(2,1,2)
 plt.plot(x2, y2, '.-')
 plt.xlabel('time (s)')
 plt.ylabel('Undamped')
+
+# There's some exponential term that I did not see
+
 
 # Unrelated code
 character_name = 'George'
