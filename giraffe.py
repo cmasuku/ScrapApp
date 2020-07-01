@@ -34,3 +34,11 @@ plt.ylabel('Undamped')
 character_name = 'George'
 character_age = 35
 
+
+# New Info from some Online course
+
+## Programming for Everybody
+
+
+
+
