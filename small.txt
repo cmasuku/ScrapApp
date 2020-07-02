@@ -1,5 +1,5 @@
 New text file
-For no Reason
+For no new Reason
 Lets see how it works
 Word count
 program to be compiled
