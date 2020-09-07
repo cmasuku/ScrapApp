@@ -1,0 +1,88 @@
+Learn by Doing
+
+
+Programming Languages
+1-Python, 2-Java, 3-Javascript, 7-R, 11-Matlab
+
+
+Python Programming
+
+Regular Expressions
+
+
+04/05
+
+
+
+Coursera
+Python Courses
+
+
+
+
+
+06/30
+YouTube
+freeCodeCamp.org
+Learn Python -- Full Course for Beginners [Tutorial]
+
+IDE
+PyCharm
+
+Giraffe
+
+
+Define a class called Characters
+with attributes: name, age
+
+
+07/01
+
+Hardware Overview
+
+Python as a Language
+Monty Python Flying circus
+
+Textbook:
+Python for Everybody
+Exploring Data Using Python 3
+Charles R. Severance
+
+Playing the Course Audio through:
+
+Google Play Music
+
+2.1 Building Blocks of Python
+2.2 Expressions
+
+3.1 If-Then-Else
+
+Atom text editor
+
+Atom 1.48.0
+
+
+Reserved Words
+
+
+
+2.1 Expressions
+
+hoursin = input('Enter Hours: ')
+hours = int(hoursin)
+ratein = input('Enter Rate: ')
+rate = int(ratein) 
+pay = rate * hours
+print('Pay: ', pay)
+
+
+
+
+
+
+
+
+
+
+
+
