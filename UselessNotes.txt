@@ -78,8 +78,6 @@ print('Pay: ', pay)
 scrap calc
 import math
 
-Q_m = 37,54*0.61*0.214*math.sqrt(2*32.17*75)
-
 
 Application of Membranes in the Transformation of Shale resources
 
