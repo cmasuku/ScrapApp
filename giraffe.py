@@ -9,6 +9,7 @@ Title: Learn Python -- Full Course for Beginners [Tutorial]
 """
 # Preferred Editor/IDE PyCharm but I use Spyder
 
+import math
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -41,6 +42,9 @@ character_age = 35
 # New Info from some Online course
 
 ## Programming for Everybody
+
+
+
 
 
 
