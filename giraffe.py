@@ -30,13 +30,14 @@ plt.xlabel('time (s)')
 plt.ylabel('Undamped')
 
 # There's some exponential term that I did not see
-
+# to be fixed soon
 
 # Unrelated code
 character_name = 'George'
 character_age = 35
 
 # part of this code will be fixed soon
+# most part of it should be fixed
 
 
 # New Info from some Online course
