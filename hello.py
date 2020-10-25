@@ -130,6 +130,7 @@ def main():
 
 # need a section on adding to a dictionary
 
+# Review with repetition
 
 
 # Day 2 Part 1
