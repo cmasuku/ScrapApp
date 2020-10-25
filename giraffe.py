@@ -31,6 +31,7 @@ plt.ylabel('Undamped')
 
 # There's some exponential term that I did not see
 # to be fixed soon
+# still waiting for the fix
 
 # Unrelated code
 character_name = 'George'
