@@ -92,6 +92,8 @@ def main():
 
 # Reviewed up to end of Part 2, next session is Part 3
 
+# Restart the review
+
 # Now onto lists and dictionaries
 
 
