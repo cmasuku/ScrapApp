@@ -16,11 +16,11 @@ Problem:
 # ----------------------------------------------------------
 Solver: 
 - Status: ok
-  Message: Ipopt 3.11.1\x3a Optimal Solution Found
+  Message: Ipopt 3.12.12\x3a Optimal Solution Found
   Termination condition: optimal
   Id: 0
   Error rc: 0
-  Time: 0.21599960327148438
+  Time: 1.4891951084136963
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -29,7 +29,7 @@ Solution:
   number of solutions displayed: 1
 - Gap: None
   Status: optimal
-  Message: Ipopt 3.11.1\x3a Optimal Solution Found
+  Message: Ipopt 3.12.12\x3a Optimal Solution Found
   Objective:
     obj:
       Value: 2.9895642187051186e-17
