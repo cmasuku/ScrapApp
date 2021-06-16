@@ -16,7 +16,7 @@ import subprocess             # this has replaced the commands module from pytho
 
 import math                   # just for fun
 
-def Cat(filename):
+#def Cat(filename):
 #    f = open(filename, 'r')
 #    for line in f:
 #        print(line)
@@ -24,19 +24,19 @@ def Cat(filename):
 #    print(lines)
 
 # handling exceptions
-    try:
-        f = open(filename)
-        text = f.read()           # just reads the file
-        print('---', filename)
-        print(text)
-    except IO Error:
-        print('IO Error', filename)
+#    try:
+#        f = open(filename)
+#        text = f.read()           # just reads the file
+#        print('---', filename)
+#        print(text)
+##    except IO Error:
+##        print('IO Error', filename)
 
 # the exception doesn't work well
 
 #    f.close()
 
- def List(dir):
+def List(dir):
     filenames = os.listdir(dir)
     for filename in filenames:
         path = os.path.join(dir, filename)
@@ -83,11 +83,11 @@ def main():
 #    print(sys.argv[1])
 #    Cat(sys.argv[1])
 #    List(sys.argv[1])
-    args = sys.argv[1:]
-    for arg in args:
-        Cat(arg)
+#    args = sys.argv[1:]
+#    for arg in args:
+#        Cat(arg)
 
-    Find('ig', 'called piiig')
+#    Find('ig', 'called piiig')
 
 
 # Reviewed up to end of Part 2, next session is Part 3
