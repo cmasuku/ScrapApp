@@ -5,7 +5,7 @@ This is just a simple PYOMO file
 The code runs by:
 $ pyomo solve rosenbrock.py --solver=ipopt --summary
 
-@author: cmasuku
+From a Pyomo book
 """
 
 # Rosenbrock test function
