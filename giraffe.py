@@ -48,7 +48,22 @@ character_age = 35
 
 # get all the import statements correct
 
+## New info for fun
 
+# Pyomo imports to be included
+
+# PYOMO code
+model = ConcreteModel()
+model.r = Var()
+model.h = Var()
+
+def surf_area_obj_rule(m):
+  return 2 * pi * m.r * (m.r + m.h)
+model.surf_area_obj = Objective(rule=surf_area_obj_rule)
+
+def vol_con_rule(m):
+  return pi * m.h * m.r** == 355
+model.vol_con = Constraint(rule=vol_con_rule)
 
 
 
