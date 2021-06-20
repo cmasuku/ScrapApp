@@ -51,6 +51,7 @@ character_age = 35
 ## New info for fun
 
 # Pyomo imports to be included
+from pyomo.environ import *
 
 # PYOMO code
 model = ConcreteModel()
@@ -64,6 +65,3 @@ model.surf_area_obj = Objective(rule=surf_area_obj_rule)
 def vol_con_rule(m):
   return pi * m.h * m.r** == 355
 model.vol_con = Constraint(rule=vol_con_rule)
-
-
-
