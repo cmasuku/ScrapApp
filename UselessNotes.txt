@@ -79,9 +79,6 @@ scrap calc
 import math
 
 
-Application of Membranes in the Transformation of Shale resources
-
-
 Aspen and Matlab interface
 
 
