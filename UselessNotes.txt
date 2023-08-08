@@ -82,7 +82,8 @@ import math
 Aspen and Matlab interface
 
 
-Are you using PYOMO or what Optimization platform are you using?
+Using PYOMO 
+Optimization platform
 
 
 Pyomo Video Notes
@@ -92,13 +93,6 @@ John Siirola
 
 
 Combinatorial Optimization
-
-
-
-
-
-
-
 
 
 
