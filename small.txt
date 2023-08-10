@@ -1,4 +1,5 @@
 New text file
+used to test Python Programs on reading and modifying text files
 For no new Reason
 Lets see how it works
 Word count
