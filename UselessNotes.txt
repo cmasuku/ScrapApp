@@ -90,6 +90,7 @@ Pyomo Video Notes
 John Siirola
 
 
+Check out Automated Differentiation
 
 
 Combinatorial Optimization
