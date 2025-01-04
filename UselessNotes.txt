@@ -94,6 +94,8 @@ Check out Automated Differentiation
 
 Using JAX
 
+Try it to solve PDEs
+
 
 Combinatorial Optimization
 
