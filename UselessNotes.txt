@@ -92,6 +92,8 @@ John Siirola
 
 Check out Automated Differentiation
 
+Using JAX
+
 
 Combinatorial Optimization
 
