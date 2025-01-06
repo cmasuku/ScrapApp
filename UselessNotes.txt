@@ -97,6 +97,9 @@ Using JAX
 Try it to solve PDEs
 
 
+Check out the CrapPy folder
+
+
 Combinatorial Optimization
 
 
