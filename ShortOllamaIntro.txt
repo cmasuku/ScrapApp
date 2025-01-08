@@ -4,6 +4,10 @@ This is used to Build Local LLM Applications
 
 At its core Ollama runs a command-line interface (CLI) which manages installation and execution of LLMs locally.
 
+<<<<<<< HEAD
 It is easy to get working
+=======
+Ollama has lots of models
+>>>>>>> 18f9b076c3049a54ae1b9d10b8200957142e3fe8
 
 It is also used for Model Management
